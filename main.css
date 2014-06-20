@@ -1,0 +1,26 @@
+body * {
+	max-width: 960px;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+}
+
+.large-picture-frame *{
+	max-width: 100%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 550px){
+
+	.nav-top * {
+		display: block;
+	}
+
+	.image-gallery {
+		display: inline-block;
+	}
+
+	.gallery-picture{
+		display: block;
+	}
+}
